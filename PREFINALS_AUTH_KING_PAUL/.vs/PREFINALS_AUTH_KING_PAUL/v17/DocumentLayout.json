@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{6615051D-5B01-4E3E-9846-A346BCA38F0F}|ProtectedApi\\ProtectedApi.csproj|solutionrelative:protectedapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6615051D-5B01-4E3E-9846-A346BCA38F0F}|ProtectedApi\\ProtectedApi.csproj|e:\\college edrel\\college\\3rd year\\2nd sem\\cs elective\\prefinals\\prefinals_auth_king_paul\\prefinals_auth_king_paul\\protectedapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6615051D-5B01-4E3E-9846-A346BCA38F0F}|ProtectedApi\\ProtectedApi.csproj|solutionrelative:protectedapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6615051D-5B01-4E3E-9846-A346BCA38F0F}|ProtectedApi\\ProtectedApi.csproj|e:\\college edrel\\college\\3rd year\\2nd sem\\cs elective\\prefinals\\prefinals_auth_king_paul\\prefinals_auth_king_paul\\protectedapi\\secret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6615051D-5B01-4E3E-9846-A346BCA38F0F}|ProtectedApi\\ProtectedApi.csproj|solutionrelative:protectedapi\\secret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6615051D-5B01-4E3E-9846-A346BCA38F0F}|ProtectedApi\\ProtectedApi.csproj|e:\\college edrel\\college\\3rd year\\2nd sem\\cs elective\\prefinals\\prefinals_auth_king_paul\\prefinals_auth_king_paul\\protectedapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6615051D-5B01-4E3E-9846-A346BCA38F0F}|ProtectedApi\\ProtectedApi.csproj|solutionrelative:protectedapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ValuesController.cs",
-              "DocumentMoniker": "E:\\COLLEGE EDREL\\COLLEGE\\3RD YEAR\\2ND SEM\\CS ELECTIVE\\PREFINALS\\PREFINALS_AUTH_KING_PAUL\\PREFINALS_AUTH_KING_PAUL\\ProtectedApi\\Controllers\\ValuesController.cs",
-              "RelativeDocumentMoniker": "ProtectedApi\\Controllers\\ValuesController.cs",
-              "ToolTip": "E:\\COLLEGE EDREL\\COLLEGE\\3RD YEAR\\2ND SEM\\CS ELECTIVE\\PREFINALS\\PREFINALS_AUTH_KING_PAUL\\PREFINALS_AUTH_KING_PAUL\\ProtectedApi\\Controllers\\ValuesController.cs",
-              "RelativeToolTip": "ProtectedApi\\Controllers\\ValuesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Title": "Secret.cs",
+              "DocumentMoniker": "E:\\COLLEGE EDREL\\COLLEGE\\3RD YEAR\\2ND SEM\\CS ELECTIVE\\PREFINALS\\PREFINALS_AUTH_KING_PAUL\\PREFINALS_AUTH_KING_PAUL\\ProtectedApi\\Secret.cs",
+              "RelativeDocumentMoniker": "ProtectedApi\\Secret.cs",
+              "ToolTip": "E:\\COLLEGE EDREL\\COLLEGE\\3RD YEAR\\2ND SEM\\CS ELECTIVE\\PREFINALS\\PREFINALS_AUTH_KING_PAUL\\PREFINALS_AUTH_KING_PAUL\\ProtectedApi\\Secret.cs",
+              "RelativeToolTip": "ProtectedApi\\Secret.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T13:32:53.676Z",
+              "WhenOpened": "2024-05-02T13:39:33.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\COLLEGE EDREL\\COLLEGE\\3RD YEAR\\2ND SEM\\CS ELECTIVE\\PREFINALS\\PREFINALS_AUTH_KING_PAUL\\PREFINALS_AUTH_KING_PAUL\\ProtectedApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ProtectedApi\\appsettings.json",
+              "ToolTip": "E:\\COLLEGE EDREL\\COLLEGE\\3RD YEAR\\2ND SEM\\CS ELECTIVE\\PREFINALS\\PREFINALS_AUTH_KING_PAUL\\PREFINALS_AUTH_KING_PAUL\\ProtectedApi\\appsettings.json",
+              "RelativeToolTip": "ProtectedApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-02T13:37:37.834Z",
               "EditorCaption": ""
             },
             {
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "ProtectedApi\\Program.cs",
               "ToolTip": "E:\\COLLEGE EDREL\\COLLEGE\\3RD YEAR\\2ND SEM\\CS ELECTIVE\\PREFINALS\\PREFINALS_AUTH_KING_PAUL\\PREFINALS_AUTH_KING_PAUL\\ProtectedApi\\Program.cs",
               "RelativeToolTip": "ProtectedApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T13:30:39.929Z",
               "EditorCaption": ""
