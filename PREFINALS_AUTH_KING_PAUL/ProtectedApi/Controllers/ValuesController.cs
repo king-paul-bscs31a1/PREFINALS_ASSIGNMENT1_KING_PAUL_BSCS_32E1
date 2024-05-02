@@ -1,25 +1,66 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
 
-[ApiController]
-[Route("[controller]")]
-public class ValuesController : ControllerBase
+namespace ProtectedApi
 {
-    [HttpGet]
-    [Authorize]
-    public IActionResult Get()
+    [ApiController]
+    [Route("[controller]")]
+    public class ValuesController : ControllerBase
     {
-        var userClaims = User.Claims.Select(c => new { c.Type, c.Value });
-        // Return user information and fun facts about API creator
-        return Ok(new
+        private static readonly Random random = new Random();
+        private readonly string ownerName = "Paul Edrel B. King"; // Replace with actual owner name
+
+        [HttpGet("about/me")]
+        public IActionResult GetAboutMe()
         {
-            User = new { Name = "Paul", Section = "BSCS-32E1", Course = "ComSci" },
-            FunFacts = new string[]
+            List<string> randomFacts = new List<string>
             {
                 "I love coding!",
                 "I enjoy gaming.",
-                "I'm a tech enthusiast."
-            }
-        });
+                "I'm a tech enthusiast.",
+                // Add more random facts here
+            };
+
+            int randomIndex = random.Next(randomFacts.Count);
+            string randomFact = randomFacts[randomIndex];
+
+            var aboutMeResponse = new
+            {
+                Fact = randomFact
+            };
+
+            return Ok(aboutMeResponse);
+        }
+
+        [HttpGet("about")]
+        public IActionResult GetAbout()
+        {
+            var aboutResponse = new
+            {
+                Owner = ownerName
+            };
+
+            return Ok(aboutResponse);
+        }
+
+        [HttpPost("about")]
+        public IActionResult PostAbout([FromBody] NameRequest nameRequest)
+        {
+            string name = nameRequest.Name;
+            var hiMessage = $"Hi {name} from {ownerName}";
+
+            var postAboutResponse = new
+            {
+                Message = hiMessage
+            };
+
+            return Ok(postAboutResponse);
+        }
+    }
+
+    public class NameRequest
+    {
+        public string Name { get; set; }
     }
 }
